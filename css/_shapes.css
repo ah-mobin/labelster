@@ -1,0 +1,50 @@
+/* shapes */
+
+.shapes{
+      position: absolute;
+      z-index: -10;
+}
+
+.shape-one{
+      top: -80px;
+      left: 0;
+      width: 180px;
+}
+
+.shape-two{
+      bottom: -80px;
+      right: 0;
+      width: 180px;
+}
+
+.shape-three{
+      bottom: -130px;
+      left: 0;
+}
+
+.shape-three img{
+      width: 100px;
+}
+
+.shape-four{
+      bottom: 0;
+      left: 0;
+      z-index: 1;
+}
+
+.shape-four img{
+      width: 120px;
+}
+
+
+/* item title bg */
+.title-bg{
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -10;
+}
+
+.title-bg img{
+      height: 250px;
+}

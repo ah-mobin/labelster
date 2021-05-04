@@ -1,0 +1,114 @@
+/* media for all headings */
+
+@media (max-width: 854px){
+      h1{
+            font-size: 50px;
+            line-height: 60px;
+      }
+
+      h2{
+            font-size: 40px;
+            line-height: 60px;
+      }
+
+      h3{
+            font-size: 30px;
+            line-height: 35px;
+      }
+
+      h4{
+            font-size: 20px;
+            line-height: 28px;
+      }
+
+      .item-title h3{
+            font-size: 25px;
+            line-height: 30px;
+      }
+}
+
+
+@media (max-width: 640px){
+      h1{
+            font-size: 28px;
+            line-height: 35px;
+      }
+
+      h2{
+            font-size: 35px;
+            line-height: 40px;
+      }
+
+      h3{
+            font-size: 30px;
+            line-height: 35px;
+      }
+
+      h4{
+            font-size: 18px;
+            line-height: 25px;
+      }
+
+      .item-title h3{
+            font-size: 22px;
+            line-height: 25px;
+      }
+}
+
+
+@media (max-width: 1136px){
+      .banner .banner-content{
+            width: 80%;
+      }
+}
+
+
+@media (max-width: 768px){
+      .copyright span{
+            position: inherit;
+            display: inline-block;
+            margin: auto 20px;
+      }
+}
+
+@media (max-width: 720px){
+      .banner .banner-content{
+            width: 100%;
+      }
+}
+
+@media (max-width: 854px){
+      .item{
+            display: block;
+      }
+}
+
+
+@media (max-width: 640px){
+      .item{
+            text-align: center;
+      }
+
+      .item .item-title{
+            padding-left: 0!important;
+      }
+
+      footer ul li a{
+            font-size: 16px;
+      }
+}
+
+@media (max-width: 560px){
+      footer h4{
+            margin-top: 40px;
+      }
+
+      footer h4,
+      footer ul li{
+            text-align: center;
+      }
+
+      .copyright span{
+            font-size: 30px;
+      }
+}

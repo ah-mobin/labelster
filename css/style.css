@@ -1,0 +1,160 @@
+/************************/
+/* Home page            */
+/************************/
+
+/* banner */
+.banner{
+      width: 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      height: 100vh;
+}
+
+.banner .top-part{
+      padding: 40px;
+}
+
+.banner .top-part span{
+      float: left;
+      color: var(--white);
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+}
+
+.banner .top-part a{
+      float: right;
+      color: var(--white);
+      background-color: var(--bg-berry-900);
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: 600;
+      transition: all 0.4s ease;
+}
+
+.banner .top-part a:hover{
+      background-color: var(--bg-berry-800);
+}
+
+.banner .banner-content{
+      padding: 60px 40px;
+      width: 60%;
+}
+
+.banner .banner-content h1{
+      font-weight: 600;
+      color: var(--white);
+}
+
+.banner .banner-content p{
+      margin: 40px auto;
+      font-weight: 400;
+      color: var(--white);
+}
+
+.rocket{
+      position: relative;
+}
+
+.rocket h2{
+      color: var(--text-green-800);
+      font-weight: 500;
+}
+
+
+.features{
+      position: relative;
+}
+
+.item{
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      column-gap: 1.5rem;
+      margin: 100px 80px;
+      text-transform: uppercase;
+}
+
+.item-title h2{
+      font-weight: 600;
+      color: var(--text-green-800);
+      text-transform: uppercase;
+}
+
+.item-title h3{
+      font-size: 30px;
+      font-weight: 500;
+      color: var(--text-green-800);
+      text-transform: uppercase;
+}
+
+.item .item-text p{
+      letter-spacing: 0.05em;
+      line-height: 35px;
+}
+
+.item a{
+      color: #333;
+      font-weight: 600;
+      float: right;
+      margin: 20px auto;
+}
+
+.item:nth-child(even) .item_image{
+      order: 2;
+      margin-left: auto;
+}
+
+.item:nth-child(even) a{
+      float: left;
+}
+
+
+.team-tailored{
+      background-color: #E7E3E3;
+      position: relative;
+}
+
+.team-tailored h2{
+      color: var(--text-green-800);
+      text-transform: capitalize;
+}
+
+.tailored span{
+      font-family: 'Roboto',sans-serif;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 56px;
+      text-transform: uppercase;
+      color: #BDBDBD;
+      margin: 20px auto;
+      cursor: pointer;
+      transition: all 0.4s ease;
+}
+
+.tailored span:hover{
+      color: #222;
+}
+
+.choose-us h2{
+      text-transform: capitalize;
+      color: var(--text-green-800);
+}
+
+.choose-us .choose-items ul li{
+      font-size: 22px;
+      line-height: 30px;
+      margin-bottom: 40px;
+      font-weight: 500;
+      font-family: 'Roboto', sans-serif;
+      color: #444;
+}
+
+.choose-us .choose-items ul li:last-child{
+      margin-bottom: 0;
+}
+
+.choose-us .choose-items ul li svg{
+      margin-right: 15px;
+}
