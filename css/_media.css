@@ -1,64 +1,76 @@
-/* media for all headings */
-
-@media (max-width: 854px){
-      h1{
-            font-size: 50px;
-            line-height: 60px;
-      }
-
-      h2{
-            font-size: 40px;
-            line-height: 60px;
-      }
-
-      h3{
-            font-size: 30px;
-            line-height: 35px;
-      }
-
-      h4{
-            font-size: 20px;
-            line-height: 28px;
-      }
-
-      .item-title h3{
-            font-size: 25px;
-            line-height: 30px;
+@media (max-width: 1680px){
+      .shape-five img{
+            width: 120px
       }
 }
 
-
-@media (max-width: 640px){
-      h1{
-            font-size: 28px;
-            line-height: 35px;
-      }
-
-      h2{
-            font-size: 35px;
-            line-height: 40px;
-      }
-
-      h3{
-            font-size: 30px;
-            line-height: 35px;
-      }
-
-      h4{
-            font-size: 18px;
-            line-height: 25px;
-      }
-
-      .item-title h3{
-            font-size: 22px;
-            line-height: 25px;
+@media (max-width: 1600px){
+      .features .item{
+            margin: 100px 80px;
       }
 }
 
+@media (max-width: 1440px){
+      .shape-five{
+           display: none;
+      }
+}
+
+@media (max-width: 1366px){
+      .tailored{
+            margin-top: 0px;
+      }
+}
 
 @media (max-width: 1136px){
-      .banner .banner-content{
-            width: 80%;
+      .shape-four{
+            display: none;
+      }
+}
+
+@media (max-width: 1080px){
+      .title-bg img{
+            height: 200px;
+      }
+}
+
+@media (max-width: 991px){
+      .choose-us .choose-items ul li{
+            font-size: 16px;
+            margin-bottom: 30px;
+            text-align: center;
+      }
+      
+      .tailored{
+            margin-top: 0px;
+            margin-bottom: 40px;
+      }
+
+      .team-tailored .tailored span{
+            display: block;
+            text-align: center;
+            margin: auto!important
+      }
+}
+
+
+@media (max-width: 854px){
+      .section-title h2{
+            font-size: 40px;
+            line-height: 45px;
+      }
+
+      
+      .features .item-title h3{
+            font-size: 25px;
+      }
+
+      .features .item{
+            display: block;
+      }
+
+      .features .item img{
+            margin-bottom: 40px;
       }
 }
 
@@ -69,22 +81,42 @@
             display: inline-block;
             margin: auto 20px;
       }
-}
-
-@media (max-width: 720px){
-      .banner .banner-content{
-            width: 100%;
+      .shapes{
+            display: none;
       }
 }
 
-@media (max-width: 854px){
-      .item{
-            display: block;
+@media (max-width: 767px){
+      .choose-items{
+            margin-top: 0px;
       }
 }
 
 
 @media (max-width: 640px){
+      .section-title h2 {
+            font-size: 30px;
+            line-height: 20px;
+            margin-top: -10px;
+        }
+
+      .rocket p{
+            font-size: 16px;
+            line-height: 22px;
+      }
+
+      .features .item .item-text p{
+            font-size: 16px;
+            line-height: 30px;
+            margin-bottom: 40px;
+
+      }
+      
+
+      .item a{
+            float: none!important;
+      }
+
       .item{
             text-align: center;
       }
@@ -93,16 +125,21 @@
             padding-left: 0!important;
       }
 
+      .item-title h3{
+            font-size: 22px;
+            line-height: 25px;
+      }
+
+      .item-text{
+            width: 100%;
+      }
+
       footer ul li a{
             font-size: 16px;
       }
 }
 
 @media (max-width: 560px){
-      footer h4{
-            margin-top: 40px;
-      }
-
       footer h4,
       footer ul li{
             text-align: center;
@@ -111,4 +148,14 @@
       .copyright span{
             font-size: 30px;
       }
+}
+
+@media (max-width: 480px){
+      .choose-us .choose-items ul li{
+            font-size: 18px;
+            margin-bottom: 35px;
+            color: #444;
+            text-align: center;
+      }
+      
 }

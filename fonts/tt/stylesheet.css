@@ -1,0 +1,162 @@
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-ExtraLight.woff2') format('woff2'),
+        url('TTRamillas-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-Italic.woff2') format('woff2'),
+        url('TTRamillas-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-Light.woff2') format('woff2'),
+        url('TTRamillas-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-ExtraLightItalic.woff2') format('woff2'),
+        url('TTRamillas-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-LightItalic.woff2') format('woff2'),
+        url('TTRamillas-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-MediumItalic.woff2') format('woff2'),
+        url('TTRamillas-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-Medium.woff2') format('woff2'),
+        url('TTRamillas-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-Regular.woff2') format('woff2'),
+        url('TTRamillas-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas-BlackDecor';
+    src: url('TTRamillas-BlackDecor.woff2') format('woff2'),
+        url('TTRamillas-BlackDecor.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-Black.woff2') format('woff2'),
+        url('TTRamillas-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas-BlackOutline';
+    src: url('TTRamillas-BlackOutline.woff2') format('woff2'),
+        url('TTRamillas-BlackOutline.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas-BlackDecorItalic';
+    src: url('TTRamillas-BlackDecorItalic.woff2') format('woff2'),
+        url('TTRamillas-BlackDecorItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-BlackItalic.woff2') format('woff2'),
+        url('TTRamillas-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas-BlackOutlineItalic';
+    src: url('TTRamillas-BlackOutlineItalic.woff2') format('woff2'),
+        url('TTRamillas-BlackOutlineItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-Bold.woff2') format('woff2'),
+        url('TTRamillas-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-ExtraBold.woff2') format('woff2'),
+        url('TTRamillas-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-ExtraBoldItalic.woff2') format('woff2'),
+        url('TTRamillas-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTRamillas';
+    src: url('TTRamillas-BoldItalic.woff2') format('woff2'),
+        url('TTRamillas-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+

@@ -4,111 +4,394 @@
 
 /* banner */
 .banner{
+      position: relative;
       width: 100%;
-      background-repeat: no-repeat;
-      background-position: center;
-      background-size: cover;
-      height: 100vh;
 }
 
-.banner .top-part{
-      padding: 40px;
-}
-
-.banner .top-part span{
-      float: left;
-      color: var(--white);
-      font-weight: 700;
-      font-size: 20px;
+.banner-content span{
+      position: absolute;
+      top: 6%;
+      left: 7%;
+      font-size: 40px;
       line-height: 24px;
+      color: var(--white);
+      font-weight: normal;
+      font-family: 'TTRamillas';
+      font-style: normal;
 }
 
-.banner .top-part a{
-      float: right;
+.banner-content h1{
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      font-size: 60px;
+      line-height: 60px;
+      color: var(--white-700);
+      width: 35%;
+      letter-spacing: 0.05em;
+      font-weight: bold;
+      font-family: 'TTRamillas';
+      font-style: normal;
+}
+
+
+.banner-content p{
+      position: absolute;
+      top: 54%;
+      left: 10%;
+      font-size: 24px;
+      line-height: 30px;
       color: var(--white);
-      background-color: var(--bg-berry-900);
-      padding: 5px 10px;
+      width: 25%;
+      font-family: 'Roboto',sans-serif;
+      font-weight: normal;
+      font-style: normal;
+}
+
+.banner-content a{
+      position: absolute;
+      top: 68%;
+      left: 10%;
+      font-size: 24px;
+      line-height: 30px;
+      color: var(--white);
+      border: 2px solid var(--white);
+      padding: 10px 30px;
       border-radius: 5px;
-      font-weight: 600;
       transition: all 0.4s ease;
 }
 
-.banner .top-part a:hover{
-      background-color: var(--bg-berry-800);
-}
-
-.banner .banner-content{
-      padding: 60px 40px;
-      width: 60%;
-}
-
-.banner .banner-content h1{
-      font-weight: 600;
+.banner-content a:hover{
+      background-color: var(--text-green-800);
       color: var(--white);
+      border: 2px solid var(--text-green-800);
+
 }
 
-.banner .banner-content p{
-      margin: 40px auto;
-      font-weight: 400;
-      color: var(--white);
+@media (max-width: 1759px){
+      .banner-content h1{
+            width: 40%;
+            top: 25%;
+      }
+
+      .banner-content p{
+            top: 49%;
+            width: 35%;
+      }
+
+      .banner-content a{
+            top: 60%;
+      }
 }
+
+
+@media (max-width: 1600px){
+      .banner-content h1{
+            font-size: 55px;
+      }
+}
+
+
+@media (max-width: 1516px){
+      .banner-content span{
+            font-size: 45px;
+            line-height: 50px;
+      }
+
+      .banner-content h1{
+            font-size: 50px;
+            line-height: 50px;
+      }
+
+      .banner-content p{
+            top: 50%;
+      }
+
+      .banner-content a{
+            top: 65%;
+      }
+}
+
+@media (max-width: 1400px){
+      .banner-content h1{
+            font-size: 45px;
+      }
+}
+
+
+@media (max-width: 1366px){
+      .banner-content h1{
+            top: 30%;
+            font-size: 40px;
+      }
+
+      .banner-content p{
+            top: 55%;
+            width: 35%;
+      }
+
+      .banner-content a{
+            top: 70%;
+      }
+}
+
+@media (max-width: 1200px){
+      .banner-content h1{
+            top: 25%;
+            font-size: 35px;
+            width: 45%
+      }
+
+      .banner-content p{
+            top: 48%;
+      }
+
+      .banner-content a{
+            top: 70%;
+      }
+}
+
+@media (max-width: 1136px){
+      .banner-content h1{
+            top: 28%;
+            font-size: 35px;
+            width: 45%
+      }
+
+      .banner-content p{
+            top: 55%;
+      }
+
+      .banner-content a{
+            top: 75%;
+      }
+}
+
+
+@media (max-width: 991px){
+      .banner-content span{
+            font-size: 32px;
+      }
+
+      .banner-content h1{
+            font-size: 35px;
+            top: 25%;
+      }
+
+      .banner-content p{
+            top: 58%;
+            width: 40%;
+            font-size: 20px;
+      }
+
+      .banner-content a{
+            top: 80%;
+            font-size: 18px;
+      }
+}
+
+
+@media (max-width: 960px){
+      .banner-content h1{
+            width: 40%;
+            font-size: 30px;
+            line-height: 35px;
+      }
+
+      .banner-content p{
+            top: 55%;
+            width: 40%;
+      }
+
+      .banner-content a{
+            top: 80%;
+            padding: 5px 15px;
+      }
+}
+
+
+@media (max-width: 880px){
+      .banner-content h1{
+            width: 45%;
+            top: 22%;
+      }
+
+      .banner-content p{
+            width: 40%;
+            top: 50%;
+      }
+
+      .banner-content a{
+            top: 80%;
+      }
+}
+
+@media (max-width: 854px){
+      .banner-content h1{
+            top: 30%;
+      }
+
+      .banner-content p{
+            top: 60%;
+            font-size: 16px;
+            line-height: 22px;
+      }
+
+      .banner-content a{
+            top: 85%;
+            font-size: 16px;
+      }
+}
+
+@media (max-width: 767px){
+      .banner-content span{
+            font-size: 20px
+      }
+      .banner-content p{
+            position: static;
+            color: var(--text-green-800);
+            width: 95%;
+            text-align: center;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 30px;
+            padding-top: 40px;
+            margin: auto;
+      }
+
+      .banner-content a{
+            position: static;
+            margin: auto;
+            color: var(--text-green-800);
+            border: 2px solid var(--text-green-800);
+            display: block;
+            text-align: center;
+            width: 20%;
+            margin-top: 30px;
+      }
+}
+
+@media (max-width: 640px){
+      .banner-content h1{
+            font-size: 25px;
+      }
+}
+
+@media (max-width: 580px){
+      .banner-content h1 {
+            top: 30%;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+      .banner-content a{
+            width: 25%;
+      }
+}
+
+@media (max-width: 480px){
+      .banner-content h1 {
+            top: 25%;
+            font-size: 18px;
+            line-height: 22px;
+        }
+
+        .banner-content p{
+              font-size: 16px;
+        }
+
+        .banner-content a{
+            font-size: 16px;
+            width: 30%;
+            padding: 3px 8px
+      }
+}
+
+@media (max-width: 400px){
+      .banner-content span {
+            top: 5%;
+      }
+      .banner-content h1 {
+            top: 25%;
+            font-size: 14px;
+            line-height: 20px;
+      }
+}
+
+
+.section-title h2{
+      color: var(--text-green-800);
+      font-family: 'TTRamillas',sans-serif;
+      font-weight: 500;
+      font-size: 45px;
+}
+
+.section-title h2 span{
+      color: #444;
+      font-size: 80px;
+      padding-left: 5px
+
+}
+
 
 .rocket{
       position: relative;
 }
 
-.rocket h2{
-      color: var(--text-green-800);
-      font-weight: 500;
-}
-
-
 .features{
       position: relative;
 }
 
-.item{
+.features .item{
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       column-gap: 1.5rem;
-      margin: 100px 80px;
+      margin: 100px 300px;
       text-transform: uppercase;
 }
 
-.item-title h2{
+.features .item-title h2{
+      font-family: 'TTRamillas',sans-serif;
+      font-style: 60px;
       font-weight: 600;
       color: var(--text-green-800);
       text-transform: uppercase;
 }
 
-.item-title h3{
+.features .item-title h3{
+      font-family: 'TTRamillas',sans-serif;
       font-size: 30px;
       font-weight: 500;
       color: var(--text-green-800);
       text-transform: uppercase;
 }
 
-.item .item-text p{
+.features .item .item-text p{
       letter-spacing: 0.05em;
       line-height: 35px;
+      font-family: 'Roboto',sans-serif;
+      font-weight: 400;
 }
 
-.item a{
+.features .item a{
       color: #333;
       font-weight: 600;
       float: right;
       margin: 20px auto;
 }
 
-.item:nth-child(even) .item_image{
+.features .item:nth-child(even) .item_image{
       order: 2;
       margin-left: auto;
 }
 
-.item:nth-child(even) a{
+.features .item:nth-child(even) a{
       float: left;
 }
 
+.tailored{
+      margin-top: 120px;
+}
 
 .team-tailored{
       background-color: #E7E3E3;
